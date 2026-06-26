@@ -1,0 +1,13 @@
+-- Insights
+
+Insight 1 (Q5): What does the loan status split tell you about portfolio health?
+
+Based on the analysis of the dataset, nearly 60% of the loan portfolio consists of clients with active loans who are making their payments on time. Around 30% of the portfolio is made up of clients who have successfully repaid their loans without any repayment issues. However, over 6% of the portfolio consists of clients whose loans are active but currently in arrears, while nearly 5% represents clients who eventually repaid their loans after previously defaulting. These groups require closer monitoring. One possible measure is to provide small repayment incentives or discounts for customers who consistently make their monthly payments on time, encouraging better repayment behaviour.
+
+Insight 2 (Q7): Year-over-year loan disbursement trend
+
+Based on the dataset covering the years 1993 to 1998, loan disbursements increased overall, with 1997 recording the highest total disbursed amount. The first year, 1993, recorded the lowest disbursement at approximately 2.6 million Kč. This was followed by a significant increase to around 13 million Kč in 1994. Loan disbursements continued to rise in 1996 by roughly 5 million Kč before peaking at over 30 million Kč in 1997. Although 1998 showed a decline compared to 1997, it still recorded nearly 25 million Kč in total loan disbursements. From a business perspective, the peak in 1997 should be analysed to understand what drove the increase, while the decline in 1998 should be investigated to determine whether it resulted from market conditions, policy changes, or reduced customer demand.
+
+Insight 3 (Q3 + Q6 combined): Cross-table business insight
+
+Accounts without loans represent potential lending opportunities. If those same accounts also demonstrate a net positive cash flow, they become strong candidates for future loan products. Neither Q3 nor Q6 reveals this insight on its own. It is only by combining the results of both queries that financially stable customers without existing loans can be identified. In the current dataset, Q6 did not return any qualifying accounts, so no such opportunities were identified.
